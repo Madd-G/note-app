@@ -73,7 +73,7 @@ class AddNote extends StatelessWidget {
         controller: _titleController,
         validator: (value) {
           if (value.isEmpty) {
-            return "Please fill the Note title";
+            return "Fill the Note title";
           }
           return null;
         },
